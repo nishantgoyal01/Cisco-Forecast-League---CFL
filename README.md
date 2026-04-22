@@ -72,30 +72,18 @@ The pipeline goes beyond standard time-series extrapolation by introducing a **c
 ## 🗂 Repository Structure
 
 ```
-cisco-demand-forecast/
+Cisco-Forecast_League---CFL/
 │
-├── notebooks/
-│   ├── FY26_Q2_Correlation_Forecast.ipynb      # Main forecasting notebook (8 steps)
-│   └── Stand_Out_Strategies.ipynb              # Advanced strategies: seasonal index,
-│                                               # confidence tiers, accuracy tracker
+├── FY26_Q2_Correlation_Forecast.ipynb          # Main forecasting notebook (8 steps)
+│  
+├── CFL_External_Data_Pack_Phase1_JN.xlsx       # Source data (not included — see Data Sources)
 │
-├── data/
-│   └── CFL_External_Data_Pack_Phase1_JN.xlsx   # Source data (not included — see Data Sources)
+├──  CFL_External_Data_Pack_Phase1_JN_Modified.xlsx  # Source data modified on various parameters
 │
-├── outputs/
-│   ├── FY26_Q2_CorrelationAdjusted_Forecast.xlsx   # Final forecast Excel (4 sheets)
-│   ├── BD_Adjusted_Series.xlsx                     # Big Deal adjustment workbook
-│   └── FY26_Q2_StandOut_Forecast.xlsx              # Stand-out strategies forecast
-│
-├── presentation/
-│   ├── FY26_Q2_CorrelationModel_Presentation.pptx  # 15-slide judge presentation
-│   └── FY26_Q2_Forecast_Presentation.pptx          # Competition overview deck
-│
-├── charts/
-│   ├── eda_summary.png                   # EDA output: CV, trend, seasonality
-│   ├── backtest_results.png              # Backtest MAPE by model and product
-│   ├── correlation_heatmaps.png          # Big Deal vs Avg Deal heatmaps
-│   └── correlation_adjusted_forecast.png # Final forecast with adjustment bands
+├── FY26_Q2_CorrelationAdjusted_Forecast.xlsx   # Final forecast Excel (4 sheets)
+│   
+├── FY26_Q2_Model_Presentation.pptx  # 15-slide judge presentation
+│   
 │
 ├── README.md
 ├── requirements.txt
